@@ -161,7 +161,7 @@ label {
   color: var(--blue-color);
 }
 .cards__plus {
-  background: url("/assets/images/plus.svg") no-repeat center center;
+  background: url("./images/plus.svg") no-repeat center center;
   width: 24px;
   height: 24px;
 }
@@ -230,7 +230,7 @@ label {
 .arrow {
   width: 24px;
   height: 24px;
-  background: url("/assets/images/arrow.svg") no-repeat;
+  background: url("./images/arrow.svg") no-repeat;
   transition: 0.8s;
 }
 .arrow_disabled {
@@ -321,7 +321,7 @@ label {
   content: "";
   width: 20px;
   height: 20px;
-  background: url("/assets/images/arrow_check.svg") no-repeat;
+  background: url("./images/arrow_check.svg") no-repeat;
 }
 .option-filter__checkbox {
   position: absolute;
@@ -426,7 +426,7 @@ input[type="reset"] {
   height: 24px;
   left: 34px;
   top: 24px;
-  background: url("/assets/images/cross.svg") no-repeat center center;
+  background: url("./images/cross.svg") no-repeat center center;
 }
 /*burger-menu*/
 .menu-toggle {

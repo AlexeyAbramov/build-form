@@ -62,6 +62,7 @@ body {
   background-color: var(--bg-color);
   position: fixed;
   top: 0;
+  z-index: 99;
 }
 .content {
   display: flex;
@@ -435,6 +436,7 @@ input[type="reset"] {
   border: 1px solid rgb(15, 15, 15);
   cursor: pointer;
   position: relative;
+  z-index: 99;
 }
 .hamburger,
 .cross {

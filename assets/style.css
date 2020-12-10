@@ -153,6 +153,9 @@ label {
   justify-content: center;
   align-items: center;
   padding: 28px 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 .cards__more:focus {
   outline: none;
@@ -580,12 +583,18 @@ input[type="reset"] {
     flex: 0 1 calc(100% - 150px);
   }
 }
-@media screen and (max-width: 510px){
-  .item-card{
+@media screen and (max-width: 510px) {
+  .item-card {
     flex: 0 1 calc(100% - 210px);
   }
-  .item-card__link{
+  .item-card__link {
     display: block;
+  }
+}
+@media screen and (max-width: 414px) {
+  .cards__more {
+    width: 290px;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 375px) {
